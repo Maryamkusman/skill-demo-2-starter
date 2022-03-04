@@ -27,7 +27,7 @@ public class LinkedList {
      */
     public void append(int value) {
         if(this.root == null) {
-            this.root = new Node(value, null);
+            this.root = new Node(value+1, null);
             return;
         }
         // If it's just one element, add if after that one
