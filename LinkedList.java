@@ -39,8 +39,8 @@ public class LinkedList {
         // Otherwise, loop until the end and add at the end with a null
         while(n.next != null) {
             n=n.next;
-            n.next = new Node(value, null);
-            n=n.next;
+            n = new Node(value, null);
+            //n=n.next;
         }
     }
     /**
