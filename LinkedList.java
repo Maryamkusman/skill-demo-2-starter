@@ -40,7 +40,6 @@ public class LinkedList {
         while(n.next != null) {
             n=n.next;
             n.next = new Node(value, null);
-            n=n.next;
             
         }
     }
